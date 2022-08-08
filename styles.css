@@ -7,6 +7,21 @@ body {
     font-size: 15px;
     letter-spacing: 2px;
     }
+    .content {
+        position: relative;
+    }
+    .background {
+    overflow: hidden;
+    position: relative;
+    }
+    .background-image {
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    }
     img {
     border-radius: 50%;
     }
